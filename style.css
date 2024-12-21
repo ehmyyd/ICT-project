@@ -1,17 +1,10 @@
-<!DOCTYPE html>
-<html>
-    <title>
-youtube.dupe
-    </title>
-  
-   <style>
-     p {
+p {
   margin-top: 0;
   margin-bottom: 0;
 }
 
 body {
-  /* This style below will be inherited */
+ 
   font-family: Roboto, Arial;
   margin: 0;
   padding-top: 80px;
@@ -27,9 +20,10 @@ width:100%;
 .vedio-title{
  margin-top:0;
  font-size:14px;
- font-weight:500;
+ font-weight:bold;
  line-height:20px;
  margin-bottom:10px;
+
 }
 
 
@@ -285,8 +279,7 @@ color:rgb(96,96,96);
 .sidebar-link div {
   font-size: 10px;
 }
-
-
-
-</style>
-  </head>
+a {
+  text-decoration: none;
+  color: inherit;
+}
